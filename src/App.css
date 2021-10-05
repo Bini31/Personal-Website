@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+/*****************Navbar Styles*********************/
+/**************Nav Links*******************/
+.nav-link{
+  font-weight: 500;
+  letter-spacing: 0.0400rem;
+  color:#fff !important;
+  cursor:pointer;
+  text-transform: uppercase;
+  margin-right:12px;
+  margin-left: 12px;
+}
+body{
+  font-family:"Roboto Condensed" San-Serif;
+}
+
+
+.nav-link:hover{
+  border-top: 0.1875 rem;
+  color:  orange !important;
+  appearance:initial;
+  }
