@@ -3,19 +3,22 @@ import manju from '../images/download.jpg'
 export const Home = () => {
     return (
         
-           <div className="home-class">
-                <div >
-              <img  className="image-class" src={manju} a></img>
+           <>
+                <div className="iC">
+              <img  className="image-class"  src={manju}></img>
 </div>
             <div className="main-info">
-                <h5>Hi,i'm Binitha.</h5> 
+                <h3>Hi,i'm Binitha.</h3> 
               <h1>Software Developer</h1>
-              <p>Mern Stack Developer,Bootstrap,css,etc.
-                  <div>1 year experience.</div>
-              </p></div>
+              <p> I have 1+ Years Of Progressive Experience working with JAVA and MySQL.Knowledge of HTML5, Bootstrap, JavaScript,Jquery React And  CSS. 
+                  Excellent Programming and strong Problem-Solving ability.
+                  
+              </p>
+              
+              </div>
              
-
-           </div> 
+</>
+         
         
     )
 }

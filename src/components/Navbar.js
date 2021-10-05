@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBars} from '@fortawesome/free-solid-svg-icons'
 export const Navbar = () => {
+    
     return (
         <div>
            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
@@ -14,19 +15,17 @@ export const Navbar = () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <a className="nav-link text-white active" href="#">Home <span class="sr-only"></span></a>
+        <a className="nav-link text-white active" href="/Home" >Home <span class="sr-only"></span></a>
+      </li>
+    
+      <li className="nav-item">
+        <a className="nav-link active" href="/Services">Services</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link " href="#">About Us</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link " href="#">Services</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link " href="#">Experience</a>
+        <a className="nav-link " href="/Experience">Experience</a>
       </li> 
       <li className="nav-item">
-        <a className="nav-link "  href="#"><div className="contact">Contact Me</div></a>
+        <a className="nav-link "  href="/Contact"><div className="contact">Contact Me</div></a>
       </li>
      
       </ul>
@@ -35,5 +34,6 @@ export const Navbar = () => {
   </div></div>
 </nav> 
         </div>
+       
     )
 }
