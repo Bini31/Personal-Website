@@ -12,6 +12,7 @@ function App() {
     <div className="App">
 
       <Navbar/>
+    
       <Router>
         <Route path='/Home' component={Home}/>
         <Route path='/Services' component={Services}/>
