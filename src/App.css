@@ -13,11 +13,38 @@
 }
 body{
   font-family:"Roboto Condensed" San-Serif;
+  background-color: black !important;
 }
-
+/***.navbar-nav > .active > a { 
+  background-color:saddlebrown!important; ; 
+}**/
 
 .nav-link:hover{
   border-top: 0.1875 rem;
-  color:  orange !important;
+  color:orange !important;
   appearance:initial;
+
   }
+ .contact{
+   text-align: end;
+ }
+  /*****************Home Styles*********************/
+  
+  .image-class{
+    height:90vh;
+    float: right;
+    padding-right:140px;
+    padding-top:30px;
+    padding-bottom: 40px;
+  }
+ .main-info{
+   display:flex;
+   align-content: center;
+   flex-direction: column;
+   justify-content: center;
+   color:white !important;
+   align-items:flex-start;
+   padding-left: 120px;
+   padding-top:100px;
+   font-size: 30px;
+ }
