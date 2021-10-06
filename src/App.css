@@ -26,9 +26,7 @@ body{
  
  
   /*****************Home Styles*********************/
-  .ic{
-    position: fixed;
-  }
+
   .image-class{
     height:100vh;
     float:right;
